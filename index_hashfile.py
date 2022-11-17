@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 from __future__ import annotations
+from pathlib import Path
 import yaml  # pip install pyyaml
 from dill import dump
-from pathlib import Path
 from tqdm import trange
 
 
